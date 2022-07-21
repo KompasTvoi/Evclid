@@ -1,0 +1,172 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/montserrat-bold-webfont.woff2") format('woff2'),
+       url("../fonts/montserrat-bold-webfont.woff") format('woff');
+  font-weight: 800;
+  font-style: normal;
+
+}
+
+
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/montserrat-extrabold-webfont.woff2") format('woff2'),
+       url("../fonts/montserrat-extrabold-webfont.woff") format('woff');
+  font-weight: 900;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/montserrat-extralight-webfont.woff2") format('woff2'),
+       url("../fonts/montserrat-extralight-webfont.woff") format('woff');
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/montserrat-light-webfont.woff2") format('woff2'),
+       url("../fonts/montserrat-light-webfont.woff") format('woff');
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/montserrat-medium-webfont.woff2") format('woff2'),
+       url("../fonts/montserrat-medium-webfont.woff") format('woff');
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/montserrat-regular-webfont.woff2") format('woff2'),
+       url("../fonts/montserrat-regular-webfont.woff") format('woff');
+  font-weight: 600;
+  font-style: normal;
+
+}
+
+
+:root{
+  --color-white:#ffffff;
+  --color-orange-decoration: #FF9900;
+  --color-orange-active: #E1670E;
+  --color-black: #000000;
+  --color-gray-light: #CACACA;
+  --color--gray-circle:#ECECEC;
+  --color-gray-dark:#D2D2D2;
+  --color-gray-btn:#666666;
+  --color-black-background:#222222;
+  --color-gray-input: #414141;
+  --swiper-theme-color: #ffffff !important;
+
+}
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: inline-block;
+    }
+
+  *,
+  *::before,
+  *::after{
+    box-sizing: inherit;
+  }
+
+  body{
+    background-color: var(--color-white);
+    font-family: "Montserrat", Arial, sans-serif;
+    color: var(--color-black);
+    line-height: 1;
+  }
+
+  button, input{
+  font: inherit;
+  cursor: pointer;
+  }
+
+  a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+  ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  h1,h2,h3,p{
+    padding: 0;
+    margin: 0;
+  }
+  .hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden;
+  }
+  /* container */
+  .container{
+    max-width: 3840px;
+    color: var(--color-black);
+    padding-left: 75px;
+    padding-right: 75px;
+    margin: 0 auto;
+  }
+
+  .heading{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--color-black) ;
+  }
+
+
+  @media (max-width: 1024px) {
+    .container{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
+
+  @media (max-width: 768px){
+    .container{
+
+    }
+
+}
+
+@media (max-width: 320px) {
+  .container{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
